@@ -2,7 +2,7 @@ CREATE TABLE fasilitas (
 	id_kelas INT,
 	nama_fasilitas VARCHAR(50),
 	PRIMARY KEY (id_kelas, nama_fasilitas),
-  FOREIGN KEY (id_kelas) REFERENCES kelas_kamar
+  FOREIGN KEY (id_kelas) REFERENCES kelas_kamar(id_kelas)
 );
 
 INSERT INTO fasilitas VALUES
