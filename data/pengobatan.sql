@@ -44,4 +44,13 @@ VALUES
     (26, 2, 1, 'Antipiretik', 'parasetamol', '10-15 mg setiap 4-6 jam', '2023-02-17', '15:30:00', '2023-02-27', '14:30:00'),
     (27, 1, 1, 'Antibiotik', 'amoksisilin', '500 mg setiap 8 jam', '2022-12-18', '00:15:00', '2022-12-18', '06:00:00'),
     (29, 1, 1, 'Antihistamin', 'loratadin', '0,1 mg setiap 12-24 jam', '2020-04-22', '17:30:00', '2020-04-27', '09:15:00'),
+    (91, 1, 3, 'Multivitamin', 'Multivitamin C, B, E, Zinc', 'satu tablet setiap hari', '2020-11-25', '09:55:00', '2020-12-04', '09:00:00'),
+    (94, 1, 2, 'Analgesik', 'asetaminofen', '500-1000 mg setiap 6-8 jam', '2022-05-22', '03:12:49', '2022-05-22', '20:31:53'),
+    (97, 1, 2, 'Analgesik', 'morfin', '2-10 mg setiap 4 jam', '2021-06-02', '10:05:41', '2021-06-02', '22:06:42'),
+    (103, 1, 4, 'Anti mual', 'domperidone', '10 mg, 1–3 kali sehari', '2021-02-02', '03:12:49', '2021-02-12', '13:07:54'),
+    (103, 2, 2, 'Analgesik', 'asetaminofen', '500-1000 mg setiap 6-8 jam', '2022-01-28', '06:06:12', '2022-01-28', '21:34:04'),
+    (109, 1, 2, 'Antikoagulan', 'heparin', '5000-10.000 unit setiap 12 jam', '2023-02-22', '09:28:35', '2023-02-22', '21:36:28'),
+    (110, 2, 2, 'Suntik insulin', 'intermediate acting insulin', '1 suntikan', '2021-12-23', '12:08:23', '2021-12-23', '12:08:24'),
+    (115, 1, 3, 'Analgesik', 'parasetamol', '500–1.000 mg diberikan setiap 4–6 jam sekali, Dosis maksimal 4.000 mg per hari', '2023-02-01', '09:22:22', '2023-02-04', '08:29:05'),
+    (117, 1, 2, 'Multivitamin', 'Multivitamin komplit', 'satu tablet setiap hari', '2022-12-18', '11:28:35', '2022-12-18', '11:36:28'),
     /* Lanjut isi di sini */

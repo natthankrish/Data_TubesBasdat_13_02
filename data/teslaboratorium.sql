@@ -40,4 +40,11 @@ VALUES
     (25, 1, 2, 'Fine-needle aspiration (FNA) biopsy', '2020-02-01', '21:00:00', 'Positif / Tinggi', 6),
     (25, 2, 1, 'Immunohistochemistry (IHC) test', '2021-11-06', '06:30:00', 'Negatif / Rendah', 4),
     (26, 1, 3, 'Gram stain test', '2022-05-17', '07:00:00', 'Negatif / Rendah', 1),
+    (91, 1, 2, 'Swab-PCR test', '2020-11-25', '09:44:00', 'Positif', 2),
+    (99, 1, 2, 'Fine-needle aspiration (FNA) biopsy', '2020-08-27', '11:12:13', 'Positif / Tinggi / Presence', 6),
+    (102, 1, 3, 'Blood glucose test', '2022-08-26', '08:03:23', 'Negatif / Rendah / Absence', 8),
+    (103, 1, 2, 'Complete blood test', '2021-02-01', '22:26:28', 'Sel darah putih rendah', 9),
+    (110, 1, 3, 'Blood glucose test', '2021-07-08', '17:07:45', 'Tinggi', 8),
+    (115, 1, 2, 'Complete blood test', '2023-02-01', '09:13:31', 'Negatif', 9),
+    (120, 1, 2, 'Immunohistochemistry (IHC) test', '2021-06-14', '23:34:06', 'Negatif', 4),
     /* Lanjut isi di sini */

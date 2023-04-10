@@ -32,4 +32,11 @@ VALUES
     (28, 1, 1, 'Operasi batu ginjal', '2021-09-27', '03:00:00'),
     (30, 1, 1, 'Pengobatan jerawat', '2021-09-14', '13:30:00'),
     (30, 2, 1, 'Pembersihan gigi', '2023-03-09', '09:30:00'),
+    (97, 1, 1, 'Tes darah', '2021-06-02', '09:50:12'),
+    (102, 1, 2, 'Tes darah', '2022-08-26', '07:55:45'),
+    (103, 1, 3, 'Transfusi darah', '2021-02-01', '22:37:36'),
+    (105, 1, 2, 'Terapi perilaku kognitif', '2022-08-26', '11:04:27'),
+    (110, 1, 2, 'Pemeriksaan tekanan darah', '2021-07-08', '15:00:29'),
+    (114, 1, 2, 'Pemeriksaan kandungan', '2020-04-14', '19:22:51'),
+    (115, 3, 2, 'Check-up', '2023-11-06', '09:26:25'),
     /* Lanjut isi di sini */
