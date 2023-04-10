@@ -18,3 +18,4 @@ VALUES
     ('DPT08', 'Kebidanan dan Kandungan', 800000),
     ('DPT09', 'Penyakit Dalam dan Saraf', 900000),
     ('DPT10', 'THT (Telinga, Hidung, dan Tenggorokan)', 1000000);
+    

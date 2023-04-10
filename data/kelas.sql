@@ -6,6 +6,8 @@ create table kelas_kamar (
 	kapasitas INT,
 	biaya_per_malam INT,
 	PRIMARY KEY (id_kelas)
+
+
 );
 insert into kelas_kamar (id_kelas, nama_kelas, kapasitas, biaya_per_malam) values (1, 'VVIP', 1, 2250000);
 insert into kelas_kamar (id_kelas, nama_kelas, kapasitas, biaya_per_malam) values (2, 'VIP', 1, 1350000);
