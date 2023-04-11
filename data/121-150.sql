@@ -135,8 +135,8 @@ VALUES  (122,1,1,"Antivirus","Adevoir","30 tablet","2013-02-17","20:00:00","2013
         (140,1,1,"Nebivolol","Linoven","15 tablet","2014-12-24","12:00:00","2014-12-30", "16:00:00"),
         (143,1,1,"Antivirus","Paxloid","30 tablet","2002-10-29","14:00:00","2002-10-30", "16:00:00"),
         (149,1,1,"Analgesik","Panadol","20 kaplet","2008-03-07","20:00:00","2008-03-10","20:00:00"),
-        (150,2,2,"Probiotik","Saccharomyces","10 kapsul","2016-07-05","19:00:00","2016-07-10","09:00:00");
-
+        (150,2,2,"Probiok","Saccharomyces","10 kapsul","2016-07-05","19:00:00","2016-07-10","09:00:00");
+ti
 INSERT INTO tes_laboratorium (id_pasien,id_rekam_medis,id_aktivitas,jenis_tes,tanggal_tes,jam_tes,hasil_tes,id_lab)
 VALUES  (122,1,1,"PCR","2013-02-17","12:46:00","positive",2),
         (124,1,1,"PCR","2002-09-29","12:00:00","positive",2),
