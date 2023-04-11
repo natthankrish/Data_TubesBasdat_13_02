@@ -165,6 +165,16 @@ VALUES
 
 INSERT INTO prosedur (id_pasien, id_rekam_medis, id_aktivitas, jenis_prosedur, tanggal_prosedur, jam_prosedur)
 VALUES
+    (63, 1, 1, 'Scan otak', '2022-10-15', '07:30'),
+    (64, 2, 1, 'Layanan kelahiran bayi', '2022-09-28', '10:15'),
+    (70, 1, 1, 'Pembersihan karang gigi', '2022-04-19', '12:45'),
+    (73, 2, 1, 'Diagnosis ADHD', '2023-04-03', '05:30'),
+    (78, 1, 1, 'Penguatan otot gusi', '2023-01-29', '08:30'),
+    (79, 1, 1, 'Scan otak', '2023-04-03', '08:45'),
+    (83, 2, 1, 'Operasi kanker', '2022-09-09', '09:30'),
+    (87, 2, 1, 'Diagnosis depresi', '2022-06-03', '21:30'),
+    (89, 1, 1, 'Terapi anger issue', '2022-07-22', '17:15'),
+    (73, 1, 1, 'Terapi gusi', '2022-04-20', '12:45'),
     (64, 1, 1, 'Imunisasi', '2022-08-27', '15:45:00'),
     (67, 2, 2, 'Layanan kelahiran bayi', '2022-10-23', '14:48:00'),
     (74, 1, 1, 'Diagnosis depresi', '2023-02-29', '12:04:30'),
@@ -178,6 +188,16 @@ VALUES
 
 INSERT INTO pengobatan (id_pasien,id_rekam_medis,id_aktivitas,jenis_pengobatan,nama_obat,dosis,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai)
 VALUES
+    (63, 1, 1, 'Obat sakit kepala', 'Paracetamol', '3 kapsul setiap hari', '2022-10-15', '14:15', '2022-10-15', '14:15'),
+    (67, 2, 2, 'Penghilang rasa sakit', 'Acetaminophen', '2 kapsul setiap hari', '2022-10-23', '11:15', '2022-10-23', '12:00'),
+    (69, 2, 1, 'Antidepresan', 'Fluoxetine', '3 kapsul setiap hari', '2022-05-29', '14:15', '2022-05-29', '14:30'),
+    (70, 1, 1, 'Penghilang rasa sakit', 'Ibuprofen', '2 sdm setiap hari', '2022-04-19', '22:15', '2022-04-19', '22:30'),
+    (73, 2, 1, 'Obat sakit kepala', 'Paracetamol', '3 kapsul setiap hari', '2023-04-03', '20:00', '2023-04-03', '19:45'),
+    (79, 1, 1, 'Obat kalsium', 'Calcium Carbonate', '2 kapsul setiap hari', '2023-04-03', '21:00', '2023-04-03', '21:30'),
+    (83, 2, 1, 'Penghilang rasa sakit', 'Acetaminophen', '2 kapsul setiap hari', '2022-09-09', '19:00', '2022-09-09', '19:30'),
+    (88, 1, 1, 'Obat sakit kepala', 'Paracetamol', '3 kapsul setiap hari', '2023-01-23', '11:15', '2023-01-23', '11:30'),
+    (89, 1, 1, 'Obat penenang', 'Citalopram', '2 tablet setiap hari', '2022-07-22', '12:15', '2022-07-22', '12:30'),
+    (73, 1, 1, 'Penghilang rasa sakit', 'Acetaminophen', '2 kapsul setiap hari', '2022-04-20', '13:30', '2022-04-20', '14:00'),
     (61, 1, 1, 'Obat gizi', 'Susu formula', '2 botol setiap hari', '2022-04-26', '12:00:00', '2022-04-26', '13:00:00'),
     (64, 1, 1, 'Vitamin', 'Vitamin C', '2 kapsul setiap hari', '2022-08-26', '12:01:12', '2022-08-26', '12:31:00'),
     (64, 2, 1, 'Vitamin', 'Vitamin C', '1 kapsul setiap hari', '2022-09-28', '09:11:00', '2022-09-28', '11:09:00'),
@@ -191,6 +211,14 @@ VALUES
 
 INSERT INTO tes_laboratorium (id_pasien,id_rekam_medis,id_aktivitas,jenis_tes,tanggal_tes,jam_tes,hasil_tes,id_laboratorium)
 VALUES
+    (67, 2, 2, 'Cek kandungan', '2022-10-23', '22:15', 'Positif / Tinggi / Presence', 5),
+    (69, 2, 1, 'Cek dopamine', '2022-05-29', '23:30', 'Negatif / Rendah / Absence', 8),
+    (70, 1, 1, 'Cek rahang bawah', '2022-04-19', '23:30', 'Positif / Tinggi / Presence', 4),
+    (73, 1, 1, 'Scan rahang', '2022-04-20', '22:30', 'Negatif / Rendah / Absence', 10),
+    (73, 2, 1, 'MRI scan', '2023-04-03', '20:00', 'Negatif / Rendah / Absence', 10),
+    (87, 2, 1, 'Cek dopamine', '2022-06-03', '19:45', 'Negatif / Rendah / Absence', 8),
+    (88, 1, 1, 'MRI scan', '2023-01-23', '15:15',  'Negatif / Rendah / Absence', 10),
+    (89, 1, 1, 'MRI scan', '2022-07-22', '20:45', 'Negatif / Rendah / Absence', 10),
     (61, 1, 1, 'Cek kesehatan bayi', '2022-04-27', '12:00:00', 'Positif / Tinggi / Presence', 5),
     (64, 1, 1, 'Cek dosis vitamin', '2022-08-25', '14:00:00', 'Negatif / Rendah / Absence', 8),
     (65, 1, 1, 'Cek gendang telinga', '2022-04-26', '11:09:20', 'Negatif / Rendah / Absence', 6),
