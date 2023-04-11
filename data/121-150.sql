@@ -90,20 +90,30 @@ VALUES  (121,1,1,400000,'01GXAJYAFV2C4MWAQWQTMT0RA3','01GXAJYAGEHKM7CBTRM3GZ5827
 (148,1,1,200000,'01GXAJYAGDEZRMDT9SVN6CT0BR','01GXAJYAGEHKM7CBTRM3GZ5827'),
 (149,1,1,200000,'01GXAJYAG4J6HXVNDDHTGQN9MV','01GXAJYAF0TMVJ34EX6P1Y9AVP'),
 (150,1,1,450000,'01GXAJYAF6A90T1Y2R5Y3NAMG7','01GXAJYAEY8WC3MED0XQ8JS1W1'),
-(150,2,2,200000,'01GXAJYAEDVNW5NTY8PTQ9GXAN','01GXAJYAE4TCBBCBXK8AFZEQ72'); -- 1 hari
+(150,2,2,200000,'01GXAJYAEDVNW5NTY8PTQ9GXAN','01GXAJYAE4TCBBCBXK8AFZEQ72'); 
 
 INSERT INTO prosedur (id_pasien,id_rekam_medis,id_aktivitas,jenis_prosedur,tanggal_prosedur,jam_prosedur)
 VALUES  (121,1,1,"Suntik Vaksin","2006-06-06","13:23:00"),
+        (122,1,1,"Terapi Fisik","2013-02-17","09:23:00"),
+        (123,1,1,"Suntik Alergi","2013-02-28","12:00:00"),
+        (124,1,1,"Amputasi","2002-09-29","21:00:00"),
+        (125,1,1,"Sirkumsisi","2015-10-28","10:00:00"),
         (127,1,1,"Bedah Tulang","2019-01-13","8:30:00"),
         (127,2,2,"Suntik Vaksin","2022-05-27","14:00:00"),
         (128,1,1,"Amputasi","2019-09-19","19:35:00"),
         (129,1,1,"Bedah Kulit","2021-05-17","10:45:00"),
+        (132,1,1,"Suntik Vaksin","2016-10-27","12:45:00"),
+        (133,1,1,"Sirkumsisi","2016-07-26","14:00:00"),
         (134,1,1,"Bedah Jantung","2023-01-02","09:00:00"),
         (137,1,1,"Suntik Insulin","2019-07-07","16:30:00"),
-        (139,3,3,"Ekstraksi Benda Asing","2000-01-23","8:45:00"),
+        (139,3,3,"Ekstraksi Benda Asing","2000-01-23","08:45:00"),
         (140,1,1,"Suntik Insulin","2014-12-24","21:17:00"),
+        (141,1,1,"Sirkumsisi","2011-08-21","20:20:00"),
+        (142,1,1,"Terapi Fisik","2017-04-06","13:45:00"),
+        (143,1,1,"Suntik std","2002-10-29","14:20:00"),
         (144,1,1,"Bedah Saraf","2011-10-18","2:41:00"),
-        (146,1,1,"Suntik Insulin","2010-01-25","15:34:00");
+        (146,1,1,"Suntik Insulin","2010-01-25","15:34:00"),
+        (150,1,1,"Terapi air","2010-04-02","15:00:00");
 
 INSERT INTO pengobatan (id_pasien,id_rekam_medis,id_aktivitas,jenis_pengobatan,nama_obat,dosis,tanggal_mulai,jam_mulai,tanggal_selesai,jam_selesai)
 VALUES  (122,1,1,"Antivirus","Adevoir","30 tablet","2013-02-17","20:00:00","2013-02-28","20:00:00"),
@@ -115,10 +125,21 @@ VALUES  (122,1,1,"Antivirus","Adevoir","30 tablet","2013-02-17","20:00:00","2013
         (139,3,3,"Nebivolol","Linoven","15 tablet","2000-01-23","12:00:00","2000-02-07", "16:00:00"),
         (142,1,1,"Antivirus","Paxloid","30 tablet","2017-04-06","14:00:00","2017-04-24", "16:00:00"),
         (145,1,1,"Analgesik","Panadol","20 kaplet","2004-08-26","20:00:00","2004-08-30","20:00:00"),
-        (150,1,1,"Probiotik","Saccharomyces","10 kapsul","2010-04-02","19:00:00","2010-04-05","09:00:00");
+        (150,1,1,"Probiotik","Saccharomyces","10 kapsul","2010-04-02","19:00:00","2010-04-05","09:00:00"),
+        (123,1,1,"Antivirus","Adevoir","30 tablet","2013-02-28","20:00:00","2013-02-29","20:00:00"),
+        (124,1,1,"Antifungal","Canesten","10 gram","2002-09-29","12:00:00","2002-09-30","12:00:00"),
+        (127,1,1,"Antidepresan","Isocarboxazid","15 tablet","2019-01-12","14:30:00","2019-01-16","14:30:00"),
+        (131,1,1,"Retinoid","Isotretinoin","10 gram","2002-10-12","10:00:00","2002-10-20","10:00:00"),
+        (135,1,1,"Opioid","Morfin","150 mg","2015-03-24","09:00:00","2015-03-30","13:00:00"),
+        (137,1,1,"Antiretroviral","Nucleoside","50 kaplet","2019-07-07","16:45:00","2019-07-14","16:00:00"),
+        (140,1,1,"Nebivolol","Linoven","15 tablet","2014-12-24","12:00:00","2014-12-30", "16:00:00"),
+        (143,1,1,"Antivirus","Paxloid","30 tablet","2002-10-29","14:00:00","2002-10-30", "16:00:00"),
+        (149,1,1,"Analgesik","Panadol","20 kaplet","2008-03-07","20:00:00","2008-03-10","20:00:00"),
+        (150,2,2,"Probiotik","Saccharomyces","10 kapsul","2016-07-05","19:00:00","2016-07-10","09:00:00");
 
 INSERT INTO tes_laboratorium (id_pasien,id_rekam_medis,id_aktivitas,jenis_tes,tanggal_tes,jam_tes,hasil_tes,id_laboratorium)
 VALUES  (122,1,1,"PCR","2013-02-17","12:46:00","positive",2),
+        (124,1,1,"PCR","2002-09-29","12:00:00","positive",2)
         (127,1,1,"PCR","2019-01-12","23:00:00","positive",2),
         (128,1,1,"Mutasi EGFR","2019-09-21","13:11:00","negative",4),
         (131,1,1,"IGRA","2002-10-12","15:00:00","negative",1),
@@ -126,7 +147,17 @@ VALUES  (122,1,1,"PCR","2013-02-17","12:46:00","positive",2),
         (139,1,1,"Rapid Test","2000-01-23","18:45:00","positive",2),
         (140,1,1,"Faktor VIII","2014-12-24","13:10:00","positive",9),
         (147,1,1,"CRP Kualitatif","2002-06-21","14:27:00","negative",5),
-        (150,1,1,"Rapid Test","2010-04-02","11:10:00","negative",2);
+        (150,1,1,"Rapid Test","2010-04-02","11:10:00","negative",2),
+        (125,1,1,"PCR","2015-10-28","12:46:00","positive",2),
+        (126,1,1,"PCR","2018-05-23","12:00:00","positive",2)
+        (123,1,1,"PCR","2013-02-28","23:00:00","positive",2),
+        (130,1,1,"Mutasi EGFR","2012-11-12","13:11:00","negative",4),
+        (132,1,1,"IGRA","2016-10-27","15:00:00","negative",1),
+        (136,1,1,"BCR ABL","2004-10-05","11:00:00","positive",5),
+        (137,1,1,"Rapid Test","2019-07-07","18:45:00","positive",2),
+        (143,1,1,"Faktor VIII","2002-10-29","13:10:00","positive",9),
+        (149,1,1,"CRP Kualitatif","2008-03-07","14:27:00","negative",5),
+        (150,2,2,"Rapid Test","2016-07-05","11:10:00","negative",2);
 
 INSERT INTO perawatan (id_pasien,id_rekam_medis,lantai,no_kamar,tanggal_masuk,tanggal_keluar)
 VALUES  (122,1,3,302,"2013-02-17","2013-02-20"),
