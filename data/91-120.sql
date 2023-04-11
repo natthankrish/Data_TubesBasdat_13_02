@@ -182,7 +182,7 @@ INSERT INTO tes_laboratorium (id_pasien, id_rekam_medis, id_aktivitas, jenis_tes
 (96, 1, 1, 'BCR ABL', '2021-06-14', '04:43:19', 'Negatif', 5),
 (98, 1, 1, 'Gram stain test', '2022-01-28', '06:15:00', 'Negatif / Rendah', 1),
 (99, 1, 2, 'Fine-needle aspiration (FNA) biopsy', '2020-08-27', '11:12:13', 'Positif / Tinggi / Presence', 6),
-(101, 1, 1, 'Complete blood count (CBC) test', '2020-06-03', '13:00:00', 'Positif / Tinggi', 9)
+(101, 1, 1, 'Complete blood count (CBC) test', '2020-06-03', '13:00:00', 'Positif / Tinggi', 9),
 (102, 1, 3, 'Blood glucose test', '2022-08-26', '08:03:23', 'Negatif / Rendah / Absence', 8),
 (103, 1, 2, 'Complete blood test', '2021-02-01', '22:26:28', 'Sel darah putih rendah', 9),
 (108, 1, 1, 'Bronchoscopy', '2021-04-27', '09:52:11', 'Positif / Tinggi', 6),
