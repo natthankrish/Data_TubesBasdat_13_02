@@ -137,9 +137,9 @@ VALUES  (122,1,1,"Antivirus","Adevoir","30 tablet","2013-02-17","20:00:00","2013
         (149,1,1,"Analgesik","Panadol","20 kaplet","2008-03-07","20:00:00","2008-03-10","20:00:00"),
         (150,2,2,"Probiotik","Saccharomyces","10 kapsul","2016-07-05","19:00:00","2016-07-10","09:00:00");
 
-INSERT INTO tes_laboratorium (id_pasien,id_rekam_medis,id_aktivitas,jenis_tes,tanggal_tes,jam_tes,hasil_tes,id_laboratorium)
+INSERT INTO tes_laboratorium (id_pasien,id_rekam_medis,id_aktivitas,jenis_tes,tanggal_tes,jam_tes,hasil_tes,id_lab)
 VALUES  (122,1,1,"PCR","2013-02-17","12:46:00","positive",2),
-        (124,1,1,"PCR","2002-09-29","12:00:00","positive",2)
+        (124,1,1,"PCR","2002-09-29","12:00:00","positive",2),
         (127,1,1,"PCR","2019-01-12","23:00:00","positive",2),
         (128,1,1,"Mutasi EGFR","2019-09-21","13:11:00","negative",4),
         (131,1,1,"IGRA","2002-10-12","15:00:00","negative",1),
@@ -149,7 +149,7 @@ VALUES  (122,1,1,"PCR","2013-02-17","12:46:00","positive",2),
         (147,1,1,"CRP Kualitatif","2002-06-21","14:27:00","negative",5),
         (150,1,1,"Rapid Test","2010-04-02","11:10:00","negative",2),
         (125,1,1,"PCR","2015-10-28","12:46:00","positive",2),
-        (126,1,1,"PCR","2018-05-23","12:00:00","positive",2)
+        (126,1,1,"PCR","2018-05-23","12:00:00","positive",2),
         (123,1,1,"PCR","2013-02-28","23:00:00","positive",2),
         (130,1,1,"Mutasi EGFR","2012-11-12","13:11:00","negative",4),
         (132,1,1,"IGRA","2016-10-27","15:00:00","negative",1),

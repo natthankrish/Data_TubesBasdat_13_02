@@ -133,7 +133,7 @@ INSERT INTO prosedur (id_pasien, id_rekam_medis, id_aktivitas, jenis_prosedur, t
 (95, 1, 1, 'Pengobatan infertilitas', '2020-04-09', '13:00:00'),
 (97, 1, 1, 'Tes darah', '2021-06-02', '09:50:12'),
 (97, 2, 1, 'Tes darah', '2022-01-29', '11:31:42'),
-(99, 1, 1, 'Blood smear test', '2020-08-27', '06:30:00', 'Positif / Tinggi', 7),
+(99, 1, 1, 'Blood smear test', '2020-08-27', '06:30:00'),
 (100, 1, 1, 'Pemeriksaan kandungan', '2021-04-24', '15:32:51'),
 (102, 1, 2, 'Tes darah', '2022-08-26', '07:55:45'),
 (103, 1, 3, 'Transfusi darah', '2021-02-01', '22:37:36'),

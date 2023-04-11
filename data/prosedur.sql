@@ -5,7 +5,7 @@ CREATE TABLE prosedur (
     jenis_prosedur      VARCHAR(25) NOT NULL,
     tanggal_prosedur    DATE NOT NULL,
     jam_prosedur        TIME NOT NULL,
-    PRIMARY KEY (id_pasien, id_rekam_medis, id_aktivitas)
+    PRIMARY KEY (id_pasien, id_rekam_medis, id_aktivitas),
     FOREIGN KEY (id_pasien, id_rekam_medis, id_aktivitas) REFERENCES aktivitas_medis
 )
 

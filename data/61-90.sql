@@ -177,7 +177,7 @@ VALUES
     (73, 1, 1, 'Terapi gusi', '2022-04-20', '12:45'),
     (64, 1, 1, 'Imunisasi', '2022-08-27', '15:45:00'),
     (67, 2, 2, 'Layanan kelahiran bayi', '2022-10-23', '14:48:00'),
-    (74, 1, 1, 'Diagnosis depresi', '2023-02-29', '12:04:30'),
+    (74, 1, 1, 'Diagnosis depresi', '2023-02-28', '12:04:30'),
     (74, 1, 2, 'Diagnosis bipolar', '2023-02-28', '19:45:00'),
     (77, 1, 1, 'Diagnosis depresi', '2023-10-21', '07:30:00'),
     (78, 1, 2, 'Operasi otak', '2023-01-29', '16:45:00'),
@@ -209,7 +209,7 @@ VALUES
     (87, 1, 1, 'Penghilang rasa sakit', 'Ibuprofen', '2 sdm setiap hari', '2023-03-16', '11:00:00', '2023-03-16', '11:15:00'),
     (87, 2, 1, 'Antidepresan', 'Sertraline', '3 tablet setiap hari', '2022-06-03', '10:00:00', '2022-06-03', '10:10:00');
 
-INSERT INTO tes_laboratorium (id_pasien,id_rekam_medis,id_aktivitas,jenis_tes,tanggal_tes,jam_tes,hasil_tes,id_laboratorium)
+INSERT INTO tes_laboratorium (id_pasien,id_rekam_medis,id_aktivitas,jenis_tes,tanggal_tes,jam_tes,hasil_tes,id_lab)
 VALUES
     (67, 2, 2, 'Cek kandungan', '2022-10-23', '22:15', 'Positif / Tinggi / Presence', 5),
     (69, 2, 1, 'Cek dopamine', '2022-05-29', '23:30', 'Negatif / Rendah / Absence', 8),
@@ -224,7 +224,7 @@ VALUES
     (65, 1, 1, 'Cek gendang telinga', '2022-04-26', '11:09:20', 'Negatif / Rendah / Absence', 6),
     (65, 2, 1, 'Cek kadar protein', '2022-07-10', '19:22:00', 'Negatif / Rendah / Absence', 8),
     (78, 1, 2, 'Cek parasit otak', '2023-01-29', '10:43:00', 'Negatif / Rendah / Absence', 7),
-    (78, 1, 2, 'Cek kadar gula', '2023-01-29', '15:42:00', 'Positif / Tinggi / Presence', 8),
+    (78, 1, 3, 'Cek kadar gula', '2023-01-29', '15:42:00', 'Positif / Tinggi / Presence', 8),
     (79, 1, 1, 'Cek parasit otak', '2023-04-05', '18:37:00', 'Negatif / Rendah / Absence', 7),
     (80, 1, 1, 'Cek kanker rahim', '2023-01-21', '09:30:00', 'Positif / Tinggi / Presence', 10),
     (82, 2, 1, 'Cek kesehatan gusi', '2022-10-22', '14:15:00', 'Negatif / Rendah / Absence', 6),
