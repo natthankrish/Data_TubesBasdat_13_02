@@ -4,7 +4,7 @@ CREATE TABLE pengobatan (
     id_aktivitas        int,
     jenis_pengobatan    varchar(50),
     nama_obat           varchar(50),
-    dosis               varchar(50),
+    dosis               varchar(100),
     tanggal_mulai       date,
     jam_mulai           time,
     tanggal_selesai     date,
