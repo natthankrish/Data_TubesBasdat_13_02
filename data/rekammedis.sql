@@ -4,7 +4,7 @@ CREATE TABLE rekam_medis (
     tanggal_masuk   DATE NOT NULL,
     tanggal_keluar  DATE NOT NULL,
     PRIMARY KEY (id_pasien, id_rekam_medis),
-    FOREIGN KEY (id_pasien) REFERENCES pasien,
+    FOREIGN KEY (id_pasien) REFERENCES pasien
 )
 
 INSERT INTO rekam_medis
