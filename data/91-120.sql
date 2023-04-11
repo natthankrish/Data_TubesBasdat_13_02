@@ -1,5 +1,5 @@
 INSERT INTO rekam_medis (id_pasien, id_rekam_medis, tanggal_masuk, tanggal_keluar) VALUES
-(91, 1, '2020-11-25', '2020-12-05'), 
+(91, 1, '2020-11-25', '2020-12-05'),
 (91, 2, '2022-11-18', '2022-11-18'),
 (92, 1, '2021-12-03', '2021-12-03'),
 (93, 1, '2022-07-18', '2022-07-18'), 
@@ -16,7 +16,7 @@ INSERT INTO rekam_medis (id_pasien, id_rekam_medis, tanggal_masuk, tanggal_kelua
 (100, 1, '2021-04-24', '2021-04-24'),
 (101, 1, '2020-06-03', '2020-06-03'),
 (102, 1, '2022-08-26', '2022-08-26'),
-(103, 1, '2021-02-01', '2021-02-15'), 
+(103, 1, '2021-02-01', '2021-02-15'),
 (103, 2, '2022-01-28', '2022-01-28'),
 (103, 3, '2022-08-21', '2022-08-21'),
 (104, 1, '2021-06-07', '2021-06-07'),
@@ -47,7 +47,18 @@ INSERT INTO rekam_medis (id_pasien, id_rekam_medis, tanggal_masuk, tanggal_kelua
 INSERT INTO aktivitas_medis (id_pasien, id_rekam_medis, id_aktivitas, harga_aktivitas, no_lisensi_perawat, no_lisensi_dokter) VALUES
 (91, 1, 1, 343000, '01GXAJYAF3VQV2Y2HSVA5QRQE5', '01GXAJYAGRNSNZ3G9V3AKG79SH'),
 (91, 1, 2, 235000, '01GXAJYAEENCA4KZTG26MSS329', '01GXAJYAE4TCBBCBXK8AFZEQ72'), 
-(91, 1, 3, 462000, '01GXAJYAGDEZRMDT9SVN6CT0BR', '01GXAJYAF5WRST79PXZQQNTQ3A'), 
+(91, 1, 3, 462000, '01GXAJYAGDEZRMDT9SVN6CT0BR', '01GXAJYAF5WRST79PXZQQNTQ3A'),
+(91, 1, 4, 210000, '01GXAJYAEXGAZVFZ0A45C53HYH', '01GXAJYAGHNG9J0C31WAQWQEAE'),
+(91, 1, 5, 180400, '01GXAJYAER7P7WYG700J07X862', '01GXAJYADYFW9FBCDRDGV09HFC'),
+(91, 1, 6, 338000, '01GXAJYAE0TSFH9ZTACM7VQYWJ', '01GXAJYAEFWKKSP0QMQKA7MHBW'), 
+(91, 1, 7, 119000, '01GXAJYAEVKG9R1ZH7JYNW3C14', '01GXAJYAFDNPR789CT772RBXFE'), 
+(91, 1, 8, 287000, '01GXAJYAGPKAN3TSGRNYJWEGG8', '01GXAJYAEJ6QW2611PC3M6TDRG'),
+(91, 1, 9, 139000, '01GXAJYAER7P7WYG700J07X862', '01GXAJYAGRNSNZ3G9V3AKG79SH'),
+(91, 1, 10, 81800, '01GXAJYAGGYTQ1AA196FKFDE8C', '01GXAJYAEKY90TQG3YRENVCMP8'),  
+(91, 1, 11, 139000, '01GXAJYAER7P7WYG700J07X862', '01GXAJYAGRNSNZ3G9V3AKG79SH'),
+(91, 1, 12, 81800, '01GXAJYAGGYTQ1AA196FKFDE8C', '01GXAJYAEKY90TQG3YRENVCMP8'),  
+(91, 1, 13, 139000, '01GXAJYAER7P7WYG700J07X862', '01GXAJYAGRNSNZ3G9V3AKG79SH'),
+(91, 1, 14, 81800, '01GXAJYAGGYTQ1AA196FKFDE8C', '01GXAJYAEKY90TQG3YRENVCMP8'),  
 (91, 2, 1, 334000, '01GXAJYAG8PSZT8HZ9A4SZ5TQT', '01GXAJYAEAHR5HWGYG23DP9BC3'),
 (92, 1, 1, 307000, '01GXAJYAEZQZ641Z7T1ZCKH4DW', '01GXAJYAEY8WC3MED0XQ8JS1W1'),
 (93, 1, 1, 253000, '01GXAJYAF87GDT4ZK9B6F5RDJ3', '01GXAJYAGQCW6JHESEMFQ0RDMC'),
@@ -115,42 +126,79 @@ INSERT INTO aktivitas_medis (id_pasien, id_rekam_medis, id_aktivitas, harga_akti
 
 
 INSERT INTO prosedur (id_pasien, id_rekam_medis, id_aktivitas, jenis_prosedur, tanggal_prosedur, jam_prosedur) VALUES
+(91, 1, 1, 'Tes darah', '2020-11-25', '06:14:12'),
+(93, 1, 1, 'Pembersihan gigi', '2022-07-18', '11:25:00'),
+(93, 3, 1, 'Pemeriksaan THT', '2023-03-03', '08:24:13'),
+(94, 1, 1, 'Pengobatan jerawat', '2022-05-22', '01:05:53'),
+(95, 1, 1, 'Pengobatan infertilitas', '2020-04-09', '13:00:00'),
 (97, 1, 1, 'Tes darah', '2021-06-02', '09:50:12'),
+(97, 2, 1, 'Tes darah', '2022-01-29', '11:31:42'),
+(99, 1, 1, 'Blood smear test', '2020-08-27', '06:30:00', 'Positif / Tinggi', 7),
+(100, 1, 1, 'Pemeriksaan kandungan', '2021-04-24', '15:32:51'),
 (102, 1, 2, 'Tes darah', '2022-08-26', '07:55:45'),
 (103, 1, 3, 'Transfusi darah', '2021-02-01', '22:37:36'),
+(104, 1, 1, 'Persalinan normal', '2021-06-07', '03:00:00'),
+(109, 1, 1, 'Pencabutan gigi', '2023-02-22', '08:00:00'),
 (105, 1, 2, 'Terapi perilaku kognitif', '2022-08-26', '11:04:27'),
 (110, 1, 2, 'Pemeriksaan tekanan darah', '2021-07-08', '15:00:29'),
+(110, 1, 1, 'Operasi batu ginjal', '2021-07-08', '07:04:00'),
+(111, 1, 1, 'Check-up', '2022-03-14', '14:31:54'),
 (114, 1, 2, 'Pemeriksaan kandungan', '2020-04-14', '19:22:51'),
 (115, 3, 2, 'Check-up', '2023-11-06', '09:26:25'),
+(117, 1, 1, 'Operasi tumor', '2022-12-18', '09:35:00'),
 
 
 INSERT INTO pengobatan (id_pasien, id_rekam_medis, id_aktivitas, jenis_pengobatan, nama_obat, dosis, tanggal_mulai, jam_mulai, tanggal_selesai, jam_selesai) VALUES
-(91, 1, 3, 'Multivitamin', 'Multivitamin C, B, E, Zinc', 'satu tablet setiap hari', '2020-11-25', '09:55:00', '2020-12-04', '09:00:00'),
+(91, 1, 3, 'Analgesik', 'parasetamol', '500 mg diberikan setiap 4–6 jam sekali', '2020-11-25', '09:55:00', '2020-11-26', '09:00:00'),
+(91, 1, 5, 'Analgesik', 'parasetamol', '500 mg diberikan setiap 4–6 jam sekali', '2020-11-26', '09:55:00', '2020-11-27', '09:00:00'),
+(91, 1, 7, 'Analgesik', 'parasetamol', '500 mg diberikan setiap 4–6 jam sekali', '2020-11-27', '09:55:00', '2020-11-28', '09:00:00'),
+(91, 1, 9, 'Multivitamin', 'Multivitamin C, B, E, Zinc', 'satu tablet setiap hari', '2020-11-28', '09:48:00', '2020-11-30', '09:00:00'),
+(91, 1, 11, 'Multivitamin', 'Multivitamin C, B, E, Zinc', 'satu tablet setiap hari', '2020-11-30', '10:03:12', '2020-12-02', '09:00:00'),
+(91, 1, 13, 'Multivitamin', 'Multivitamin C, B, E, Zinc', 'satu tablet setiap hari', '2020-12-02', '10:03:12', '2020-12-05', '09:00:00'),
+(93, 3, 2, 'Obat hidung','oxymetazoline', '0,05 persen setiap 12 jam','2023-03-03','09:12:00','2023-03-03','21:15:00'),
 (94, 1, 2, 'Analgesik', 'asetaminofen', '500-1000 mg setiap 6-8 jam', '2022-05-22', '03:12:49', '2022-05-22', '20:31:53'),
 (97, 1, 2, 'Analgesik', 'morfin', '2-10 mg setiap 4 jam', '2021-06-02', '10:05:41', '2021-06-02', '22:06:42'),
+(102, 1, 1, 'Obat antiinflamasi', 'ibuprofen', '200-800 mg setiap 6-8 jam', '2022-08-26', '07:00:00', '2022-08-26', '21:45:00'),
 (103, 1, 4, 'Anti mual', 'domperidone', '10 mg, 1–3 kali sehari', '2021-02-02', '03:12:49', '2021-02-12', '13:07:54'),
 (103, 2, 2, 'Analgesik', 'asetaminofen', '500-1000 mg setiap 6-8 jam', '2022-01-28', '06:06:12', '2022-01-28', '21:34:04'),
+(105, 1, 1, 'Antihistamin', 'loratadin', '0,1 mg setiap 12-24 jam', '2022-11-14', '12:14:20', '2022-11-14', '12:15:00'),
+(107, 1, 1, 'Antibiotik', 'amoksisilin', '500 mg setiap 8 jam', '2023-01-01', '00:15:00', '2023-01-01', '16:13:00'),
 (109, 1, 2, 'Antikoagulan', 'heparin', '5000-10.000 unit setiap 12 jam', '2023-02-22', '09:28:35', '2023-02-22', '21:36:28'),
 (110, 2, 2, 'Suntik insulin', 'intermediate acting insulin', '1 suntikan', '2021-12-23', '12:08:23', '2021-12-23', '12:08:24'),
+(112, 1, 1, 'Hormon', 'kontrasepsi oral', '1 pil setiap hari pada waktu yang sama', '2023-01-05', '16:00:00', '2023-01-05', '16:00:00'),
+(114, 1, 1, 'Obat hidung', 'dekongestan', 'oxymetazoline 0,05 persen setiap 12 jam', '2020-04-14', '00:05:00', '2020-04-14', '23:15:00'),
 (115, 1, 3, 'Analgesik', 'parasetamol', '500–1.000 mg diberikan setiap 4–6 jam sekali, Dosis maksimal 4.000 mg per hari', '2023-02-01', '09:22:22', '2023-02-04', '08:29:05'),
 (117, 1, 2, 'Multivitamin', 'Multivitamin komplit', 'satu tablet setiap hari', '2022-12-18', '11:28:35', '2022-12-18', '11:36:28'),
 
 
 INSERT INTO tes_laboratorium (id_pasien, id_rekam_medis, id_aktivitas, jenis_tes, tanggal_tes, jam_tes, hasil_tes, id_lab) VALUES
-(91, 1, 2, 'Swab-PCR test', '2020-11-25', '09:44:00', 'Positif', 2),
+(91, 1, 2, 'PCR', '2020-11-25', '09:44:00', 'Positif', 2),
+(91, 1, 4, 'Rapid Test', '2020-11-26', '09:44:00', 'Positif', 2),
+(91, 1, 6, 'Rapid Test', '2020-11-27', '09:34:00', 'Positif', 2),
+(91, 1, 8, 'Rapid Test', '2020-11-28', '09:36:00', 'Positif', 2),
+(91, 1, 10, 'PCR', '2020-11-30', '09:20:00', 'Positif', 2),
+(91, 1, 12, 'PCR', '2020-12-02', '09:20:00', 'Positif', 2),
+(91, 1, 14, 'PCR', '2020-12-05', '09:20:00', 'Negatif', 2),
+(96, 1, 1, 'BCR ABL', '2021-06-14', '04:43:19', 'Negatif', 5),
+(98, 1, 1, 'Gram stain test', '2022-01-28', '06:15:00', 'Negatif / Rendah', 1),
 (99, 1, 2, 'Fine-needle aspiration (FNA) biopsy', '2020-08-27', '11:12:13', 'Positif / Tinggi / Presence', 6),
+(101, 1, 1, 'Complete blood count (CBC) test', '2020-06-03', '13:00:00', 'Positif / Tinggi', 9)
 (102, 1, 3, 'Blood glucose test', '2022-08-26', '08:03:23', 'Negatif / Rendah / Absence', 8),
 (103, 1, 2, 'Complete blood test', '2021-02-01', '22:26:28', 'Sel darah putih rendah', 9),
+(108, 1, 1, 'Bronchoscopy', '2021-04-27', '09:52:11', 'Positif / Tinggi', 6),
 (110, 1, 3, 'Blood glucose test', '2021-07-08', '17:07:45', 'Tinggi', 8),
+(110, 2, 1, 'ELISA test', '2021-12-23', '09:31:00', 'Negatif / Rendah', 5),
+(113, 1, 1, 'Luteinizing hormone (LH) test', '2021-09-11', '11:24:00', 'Negatif / Rendah', 10),
 (115, 1, 2, 'Complete blood test', '2023-02-01', '09:13:31', 'Negatif', 9),
+(116, 1, 1, 'Biopsy', '2023-01-13', '12:00:00', 'Negatif / Rendah', 4),
 (120, 1, 2, 'Immunohistochemistry (IHC) test', '2021-06-14', '23:34:06', 'Negatif', 4),
 
 
 INSERT INTO perawatan (id_pasien, id_rekam_medis, lantai, no_kamar, tanggal_masuk, tanggal_keluar) VALUES
-(91, 1, 1, 100, '2020-11-25', '2020-12-05'), -- covid
-(103, 1, 3, 305, '2021-02-01', '2021-02-04'), -- dbd
-(103, 1, 2, 208, '2021-02-04', '2021-02-15'), -- dbd
-(115, 1, 4, 401, '2023-02-01', '2023-02-04'), -- demam
+(91, 1, 1, 100, '2020-11-25', '2020-12-05'),
+(103, 1, 3, 305, '2021-02-01', '2021-02-04'),
+(103, 1, 2, 208, '2021-02-04', '2021-02-15'),
+(115, 1, 4, 401, '2023-02-01', '2023-02-04'),
 
 
 INSERT INTO permohonan (id_pasien, id_rekam_medis, id_permohonan, nominal, nama_asuransi, status) VALUES
