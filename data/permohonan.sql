@@ -146,3 +146,5 @@ VALUES
     (120, 2, 1, 141000, 'Kuvalis-Erdman', 'Accepted'),
     (120, 2, 2, 208000, 'Heaney, Hayes and Durgan', 'Declined'),
     /* Lanjut isi di sini */
+
+insert into permohonan value (1, 2, 2, 500000, 'Batz Group', 'Declined');

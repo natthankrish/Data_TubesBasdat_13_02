@@ -3,6 +3,7 @@ CREATE TABLE rekam_medis (
     id_rekam_medis  int,
     tanggal_masuk   DATE NOT NULL,
     tanggal_keluar  DATE NOT NULL,
+    total_biaya     int DEFAULT NULL,
     PRIMARY KEY (id_pasien, id_rekam_medis),
     FOREIGN KEY (id_pasien) REFERENCES pasien
 )
